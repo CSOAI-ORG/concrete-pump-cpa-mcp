@@ -1,0 +1,13 @@
+# Concrete Pump CPA MCP - Auto-trigger Rules
+
+When the user asks about CPA concrete pumping, BS EN 12001, ground bearing, pump operator certification, use concrete-pump-cpa-mcp tools:
+
+- **check_cpa_compliance**: CPA Concrete Pumping Group safety standards check
+- **operator_cert_check**: Concrete pump operator certification verification
+- **calculate_ground_bearing**: BS EN 12001 ground bearing capacity calculator
+- **exclusion_zone_check**: Exclusion zone setup per pump type and reach
+- **pre_pour_checklist**: Pre-pour safety + setup checklist
+
+Install: `pip install concrete-pump-cpa-mcp`
+
+By MEOK AI Labs — trade vertical compliance MCP. Pairs with meok-attestation-api for signed compliance certs.
