@@ -1,18 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/concrete-pump-cpa-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CPA Concrete Pumping Group standards, pump operator certification, BS EN 12001 ground bearing ca...",
   "repository": {
-    "type": "git",
     "url": "https://github.com/CSOAI-ORG/concrete-pump-cpa-mcp",
-    "source": "https://github.com/CSOAI-ORG/concrete-pump-cpa-mcp"
+    "source": "github"
   },
   "packages": [
     {
       "registryType": "pypi",
       "identifier": "concrete-pump-cpa-mcp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "runtimeHint": "python",
       "transport": {
         "type": "stdio"

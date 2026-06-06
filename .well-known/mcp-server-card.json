@@ -1,0 +1,28 @@
+{
+  "name": "concrete-pump-cpa-mcp",
+  "title": "Concrete Pump Cpa Mcp",
+  "description": "CPA Concrete Pumping Group standards, pump operator certification, BS EN 12001 ground bearing capacity, exclusion zones.",
+  "version": "1.0.4",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_cpa_compliance"
+    },
+    {
+      "name": "operator_cert_check"
+    },
+    {
+      "name": "calculate_ground_bearing"
+    },
+    {
+      "name": "exclusion_zone_check"
+    },
+    {
+      "name": "pre_pour_checklist"
+    }
+  ]
+}

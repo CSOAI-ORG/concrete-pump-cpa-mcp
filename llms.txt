@@ -1,32 +1,21 @@
-# Concrete Pump Cpa MCP
+# concrete-pump-cpa-mcp
 
-> UK concrete pump operator compliance MCP
+> CPA Concrete Pumping Group standards, pump operator certification, BS EN 12001 ground bearing capacity, exclusion zones.
 
-`concrete-pump-cpa-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_cpa_compliance
+- operator_cert_check
+- calculate_ground_bearing
+- exclusion_zone_check
+- pre_pour_checklist
 
 ## Install
-
-```bash
+```
 pip install concrete-pump-cpa-mcp
 ```
 
-Or run without installing:
-
-```bash
-uvx concrete-pump-cpa-mcp
-```
-
-## Tools
-
-- `check_cpa_compliance` — CPA Concrete Pumping Group safety standards check
-- `operator_cert_check` — Concrete pump operator certification verification
-- `calculate_ground_bearing` — BS EN 12001 ground bearing capacity calculator
-- `exclusion_zone_check` — Exclusion zone setup per pump type and reach
-- `pre_pour_checklist` — Pre-pour safety + setup checklist
-
 ## Links
-
-- Source: https://github.com/CSOAI-ORG/concrete-pump-cpa-mcp
 - PyPI: https://pypi.org/project/concrete-pump-cpa-mcp/
-- MEOK AI Labs: https://meok.ai
-- Council of AI: https://councilof.ai
+- Docs: https://meok.ai

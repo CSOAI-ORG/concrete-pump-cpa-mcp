@@ -1,0 +1,28 @@
+name: concrete-pump-cpa-mcp
+description: 'MCP server: concrete-pump-cpa-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/concrete-pump-cpa-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_cpa_compliance
+  description: CPA Concrete Pumping Group safety standards check
+- name: operator_cert_check
+  description: Concrete pump operator certification verification
+- name: calculate_ground_bearing
+  description: BS EN 12001 ground bearing capacity calculator
+- name: exclusion_zone_check
+  description: Exclusion zone setup per pump type and reach
+- name: pre_pour_checklist
+  description: Pre-pour safety + setup checklist
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'
