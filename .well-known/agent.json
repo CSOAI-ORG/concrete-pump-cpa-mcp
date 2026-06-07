@@ -1,0 +1,68 @@
+{
+  "name": "concrete-pump-cpa-mcp",
+  "description": "CPA Concrete Pumping Group standards, pump operator certification, BS EN 12001 ground bearing ca...",
+  "url": "https://proofof.ai/scorecard/concrete-pump-cpa-mcp.html",
+  "version": "1.0.4",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_cpa_compliance",
+      "name": "Check Cpa Compliance",
+      "description": "check_cpa_compliance via concrete-pump-cpa-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "operator_cert_check",
+      "name": "Operator Cert Check",
+      "description": "operator_cert_check via concrete-pump-cpa-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "calculate_ground_bearing",
+      "name": "Calculate Ground Bearing",
+      "description": "calculate_ground_bearing via concrete-pump-cpa-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "exclusion_zone_check",
+      "name": "Exclusion Zone Check",
+      "description": "exclusion_zone_check via concrete-pump-cpa-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "pre_pour_checklist",
+      "name": "Pre Pour Checklist",
+      "description": "pre_pour_checklist via concrete-pump-cpa-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "concrete-pump-cpa-mcp",
+    "description": "CPA Concrete Pumping Group standards, pump operator certification, BS EN 12001 ground bearing ca...",
+    "version": "1.0.4",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "concrete-pump-cpa-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_cpa_compliance",
+      "operator_cert_check",
+      "calculate_ground_bearing",
+      "exclusion_zone_check",
+      "pre_pour_checklist"
+    ]
+  }
+}
