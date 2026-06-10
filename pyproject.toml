@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "concrete-pump-cpa-mcp"
 readme = "README.md"
-version = "1.0.4"
+version = "1.0.7"
 description = "CPA Concrete Pumping Group standards, pump operator certification, BS EN 12001 ground bearing capacity, exclusion zones."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
