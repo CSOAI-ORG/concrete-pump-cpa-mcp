@@ -3,7 +3,7 @@ description: 'MCP server: concrete-pump-cpa-mcp'
 version: 1.0.5
 author: MEOK AI Labs
 homepage: https://safetyof.ai
-repository: https://github.com/MEOK-AI-Labs/concrete-pump-cpa-mcp
+repository: https://github.com/CSOAI-ORG/concrete-pump-cpa-mcp
 license: MIT
 categories:
 - compliance
